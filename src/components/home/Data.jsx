@@ -56,7 +56,7 @@ const Data = () => {
         </svg>
       </h1>
       <h3 className="home__subtitle">Frontend Dasturchi.</h3>
-      <p className="home__description">UX/UI dizaynga e'tiborli, responsiv va intuitiv interfeyslar yaratishni yaxshi ko'ruvchi <i> <b>coffeholic</b> </i>.
+      <p className="home__description">UX/UI dizaynga e'tiborli, moslashuvchan va intuitiv interfeyslar yaratishni yaxshi ko'ruvchi <i> <b>coffeholic</b> </i>.
       </p>
 
       <a href="#!" className="button button--flex">

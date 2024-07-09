@@ -41,7 +41,7 @@ export default function Header() {
 
             <li className="nav__item">
               <a href="#contact" className="nav__link">
-                <i className="uil uil-message nav__icon"></i> Aloqaga
+                <i className="uil uil-message nav__icon"></i> Menga yetish
               </a>
             </li>
           </ul>

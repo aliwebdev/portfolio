@@ -88,7 +88,7 @@
 }
 
 .home__scroll {
-  margin-left: 9.25rem;
+  margin-left: 45%;
 }
 
 .wheel {
@@ -151,7 +151,7 @@
   }
 
   .home__scroll {
-    margin-left: 7.5rem;
+    margin-left: 40%;
   }
 }
 
@@ -184,11 +184,11 @@
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .home__img{
+  .home__img {
     width: 180px;
     height: 180px;
   }
-  .home__hand{
+  .home__hand {
     width: 22px;
     height: 22px;
   }
