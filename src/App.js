@@ -7,6 +7,7 @@ import music from "./assets/audio.mp3";
 import Loader from "./components/loader/Loader";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
+import Qualification from "./components/qualification/Qualification";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -49,6 +50,7 @@ function App() {
         <About />
         <Skills />
         <Services />
+        <Qualification />
       </div>
     </>
   );
