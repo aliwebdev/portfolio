@@ -5,6 +5,8 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import music from "./assets/audio.mp3";
 import Loader from "./components/loader/Loader";
+import Skills from "./components/skills/Skills";
+import Services from "./components/services/Services";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -45,6 +47,8 @@ function App() {
       <div className="main">
         <Home />
         <About />
+        <Skills />
+        <Services />
       </div>
     </>
   );
