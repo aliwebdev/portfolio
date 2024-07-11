@@ -3,33 +3,16 @@ import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
-import music from "./assets/audio.mp3";
 import Loader from "./components/loader/Loader";
 import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualification from "./components/qualification/Qualification";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Scrollup from "./components/scrollup/Scrollup";
 
 function App() {
   const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const audio = new Audio(music);
-    audio.loop = true;
-
-    const playAudio = () => {
-      audio.play().catch((error) => {
-        console.error("Audio playback failed:", error);
-      });
-    };
-
-    document.addEventListener("click", playAudio, { once: true });
-
-    return () => {
-      document.removeEventListener("click", playAudio);
-    };
-  }, []);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -40,7 +23,7 @@ function App() {
   }, []);
 
   if (loading) {
-    return <Loader/>;
+    return <Loader />;
   }
 
   return (
@@ -54,8 +37,9 @@ function App() {
         <Services />
         <Qualification />
         <Contact />
-        <Footer />
       </div>
+      <Footer />
+      <Scrollup />
     </>
   );
 }
