@@ -59,7 +59,7 @@ const Data = () => {
       <p className="home__description">UX/UI dizaynga e'tiborli, moslashuvchan va intuitiv interfeyslar yaratishni yaxshi ko'ruvchi <i> <b>coffeholic</b> </i>.
       </p>
 
-      <a href="#!" className="button button--flex">
+      <a href="#contact" className="button button--flex">
         Bu yerdaman
         <svg
                   class="button__icon"

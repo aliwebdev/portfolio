@@ -9,7 +9,7 @@ const Qualification = () => {
     console.log(index);
   };
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="portfolio">
       <div className="section__title">Portfolio</div>
       <p className="section__subtitle">Bosib o'tilgan yo'l</p>
 
