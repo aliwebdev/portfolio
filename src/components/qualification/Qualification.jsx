@@ -49,12 +49,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web design</h3>
+                <h3 className="qualification__title">Frontend</h3>
                 <span className="qualification__subtitle">
-                  Tashkent - Astrum IT Academy
+                  Kokand - IT Center
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2020 - 2021
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const Qualification = () => {
                 <div className="qualification__line"></div>
               </div>
               <div>
-                <h3 className="qualification__title">Web design</h3>
+                <h3 className="qualification__title">Full stack</h3>
                 <span className="qualification__subtitle">
                   Tashkent - Astrum IT Academy
                 </span>
@@ -82,12 +82,12 @@ const Qualification = () => {
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web design</h3>
+                <h3 className="qualification__title">Frontend - Js, React</h3>
                 <span className="qualification__subtitle">
-                  Tashkent - Astrum IT Academy
+                  Online - Azizbek Khabibullayev
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
 
@@ -96,6 +96,7 @@ const Qualification = () => {
                 <div className="qualification__line"></div>
               </div>
             </div>
+
             <div className="qualification__data">
               <div></div>
 
@@ -104,12 +105,12 @@ const Qualification = () => {
                 <div className="qualification__line"></div>
               </div>
               <div>
-                <h3 className="qualification__title">Web design</h3>
+                <h3 className="qualification__title">Digital Economics(1-kurs)</h3>
                 <span className="qualification__subtitle">
-                  Tashkent - Astrum IT Academy
+                  Tashkent - TATU
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2024
                 </div>
               </div>
             </div>
@@ -123,68 +124,51 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
+                <h3 className="qualification__title">Vali Teach</h3>
+                <span className="qualification__subtitle">
+                  Kokand - Backend Developer
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <div className="qualification__line"></div>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <div className="qualification__line"></div>
+              </div>
+              <div>
                 <h3 className="qualification__title">IT Center</h3>
                 <span className="qualification__subtitle">
-                  Tashkent - Astrum IT Academy
+                  Kokand - Frontend Mentor
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <div className="qualification__line"></div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <div className="qualification__line"></div>
-              </div>
-              <div>
-                <h3 className="qualification__title">Web design</h3>
-                <span className="qualification__subtitle">
-                  Tashkent - Astrum IT Academy
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2022-2023
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web design</h3>
+                <h3 className="qualification__title">Pro Teach</h3>
                 <span className="qualification__subtitle">
-                  Tashkent - Astrum IT Academy
+                  Kokand - Frontend Mentor
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
+                  <i className="uil uil-calendar-alt"></i> 2024
                 </div>
               </div>
 
               <div>
                 <span className="qualification__rounder"></span>
                 <div className="qualification__line"></div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <div className="qualification__line"></div>
-              </div>
-              <div>
-                <h3 className="qualification__title">Web design</h3>
-                <span className="qualification__subtitle">
-                  Tashkent - Astrum IT Academy
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
-                </div>
               </div>
             </div>
           </div>
